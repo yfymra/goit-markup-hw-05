@@ -683,7 +683,8 @@ ul {
     transition: background-color var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function);
 }
 
-.modal-close-button:hover {
+.modal-close-button:hover,
+.modal-close-button:focus {
     background-color: var(--pressed-state);
     color: var(--color-accent);
     border-radius: 50%;
